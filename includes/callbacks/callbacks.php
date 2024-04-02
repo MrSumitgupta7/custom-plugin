@@ -11,5 +11,8 @@ function custom_plugin_new_lead_page() {
     echo '<h1>Create New Lead Page</h1>';
 }
 
-?>
 
+
+// Hook the menu function to WordPress admin menu action
+add_action('admin_menu', 'custom_plugin_add_menu');
+?>

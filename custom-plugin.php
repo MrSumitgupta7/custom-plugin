@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Custom Plugin
+ * Plugin Name:       custom plugin
  * Plugin URI:        https://example.com/plugins/the-basics/custom
  * Description:       Handles CRUD operations and creates a custom table with REST controller.
  * Version:           1.10.3

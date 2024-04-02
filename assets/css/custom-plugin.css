@@ -1,7 +1,8 @@
 /* Styles for custom plugin */
 .custom-plugin-new-lead {
     max-width: 600px;
-    margin: 0 auto;
+    margin: left 0;
+    background: grey200;
 }
 
 .custom-plugin-new-lead h1 {
@@ -20,8 +21,8 @@
 }
 
 .custom-plugin-new-lead .form-table th {
-    width: 30%;
-    text-align: right;
+    width: 20%;
+    text-align: left;
 }
 
 .custom-plugin-new-lead .form-table td {
@@ -38,82 +39,5 @@
 
 .custom-plugin-new-lead .button-primary {
     margin-top: 20px;
-}
-.custom-plugin-popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 255, 0, 0.5); /* Neon green background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.custom-plugin-popup-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.custom-plugin-popup-content h2 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.custom-plugin-popup-content button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.custom-plugin-popup-content button:hover {
-    background-color: #0056b3;
-}
-
-.custom-plugin-popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 255, 0, 0.5);
-    /* Neon green background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.custom-plugin-popup-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.custom-plugin-popup-content h2 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.custom-plugin-popup-content button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.custom-plugin-popup-content button:hover {
-    background-color: #0056b3;
+    border:1px solid black
 }

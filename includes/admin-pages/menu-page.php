@@ -8,14 +8,14 @@ function custom_plugin_add_menu() {
         'custom-plugin',    // Menu Slug
         'custom_lead_page', // Callback function to display the page content
         'dashicons-admin-plugins', // Icon for the menu item
-        30                   // Position in the menu order
+        70                // Position in the menu order
     );
 
     // Add submenu item to display all leads
     add_submenu_page(
         'custom-plugin',            // Parent Slug
-        'All Leads',                // Page Title
-        'All Leads',                // Menu Title
+        'View Leads',                // Page Title
+        'View Leads',                // Menu Title
         'manage_options',           // Capability (who can access this menu)
         'custom-plugin-all-leads',  // Menu Slug
         'custom_plugin_all_leads_page' // Callback function to display all leads
@@ -24,8 +24,8 @@ function custom_plugin_add_menu() {
     // Add submenu item to create new leads
     add_submenu_page(
         'custom-plugin',            // Parent Slug
-        'Create New Lead',          // Page Title
-        'Create New Lead',          // Menu Title
+        'Create  Lead',          // Page Title
+        'Create  Lead',          // Menu Title
         'manage_options',           // Capability (who can access this menu)
         'custom-plugin-new-lead',   // Menu Slug
         'custom_plugin_new_lead_page' // Callback function to create new lead
